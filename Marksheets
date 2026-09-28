@@ -1,0 +1,32 @@
+print('========================')
+print ('Marksheet of students')
+print('========================')
+Name=input('Enter your Name: ')
+if Name.isalpha():
+
+    english =int(input('Enter Your English Mark: '))
+    maths=int(input('Enter Your Maths Marks: '))
+    science=int(input('Enter Your Science Marks: '))
+    computer=int(input('Enter Your Computer Marks: '))
+    tamil=int(input('Enter Your Tamil Marks: '))
+
+    total=english+maths+science+computer+tamil
+    average=total/5
+    print('Total Marks Obtained: ',total)
+    print('Average: ',average)
+    if english<50 or maths<50 or science<50 or computer<50 or tamil<50:
+        print('Fail')
+    elif average >=90 and average <=100:
+        print('Grade o')
+    elif average >=80:
+        print('Grade A')
+    elif average >=70:
+        print('Grade B')
+    elif average>=60:
+        print('Grade C')
+    elif average>=50:
+        print('Grade D')
+    else:
+        print('Enter Correct mark')
+else:
+    print('Enter Valid Name')
