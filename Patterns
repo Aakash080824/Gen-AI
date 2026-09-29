@@ -1,0 +1,36 @@
+#Number wise row IRAT
+for i in range(1,6):
+    for j in range(i):
+        print(i,end=' ')
+    print()
+
+#Number wise Column IRAT
+for i in range(5,0,-1):
+    for j in range(i):
+        print(i,end=' ')
+    print()
+
+#uppercase Character wise row IRAT
+
+for i in range(1,6):
+    for j in range(i):
+        print(chr(65+j),end=' ')
+    print()
+
+# uppercase Character wise column IRAT
+for i in range(5,0,-1):
+    for j in range(i):
+        print(chr(65+j),end=' ')
+    print()
+
+#Lowercase Character wise row IRAT
+for i in range(5,0,-1):
+    for j in range (i):
+        print(chr(97+j),end=' ')
+    print()
+
+#Lowercase Character wise Column IRAT
+for i in range(1,6):
+    for j in range(i):
+        print(chr(97+j),end=' ')
+    print()
